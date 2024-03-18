@@ -46,8 +46,10 @@ def getlink():
   else:
     print('link not returned')
     return 'No'
-      
+
+print(getlink())
+linkkk=getlink()
 @app.route('/')
 def hello_world():
-    return getlink()
+    return linkkk
 
